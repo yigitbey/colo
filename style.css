@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4682B4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+#map {
+    width: 60%;
+    height: calc(100vh - 140px); /* Adjust height based on header/footer */
+}
+
+#itinerary {
+    width: 40%;
+    padding: 1rem;
+    overflow-y: auto;
+    height: calc(100vh - 140px); /* Adjust height based on header/footer */
+}
+
+.day {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.day h2 {
+    color: #4682B4;
+}
+
+.travel-info {
+    font-style: italic;
+    color: #555;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.event {
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid #ddd;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+}
+
+#important-notes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#important-notes li {
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #map, #itinerary {
+        width: 100%;
+        height: 50vh; /* Adjust height for vertical layout */
+    }
+}

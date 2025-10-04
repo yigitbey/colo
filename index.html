@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado Travel Itinerary</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Colorado Late Autumn Trip</h1>
+    </header>
+    <main>
+        <div id="map"></div>
+        <div id="itinerary">
+            <!-- Itinerary will be dynamically generated here -->
+        </div>
+    </main>
+    <footer>
+        <div id="important-notes">
+            <h2>Important Notes</h2>
+            <ul>
+                <!-- Important notes will be dynamically generated here -->
+            </ul>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!--
+        Note: OpenStreetMap is used here to provide map functionality without requiring a personal API key,
+        making the project easily accessible. For a production environment, switching to a provider like
+        Google Maps with a valid API key would be recommended for more detailed maps and features.
+    -->
+    <script src="script.js"></script>
+</body>
+</html>

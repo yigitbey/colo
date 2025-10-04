@@ -1,0 +1,272 @@
+{
+  "title": "Colorado Late Autumn Trip",
+  "important_notes": [
+    "Weather is unpredictable; pack for both sun and snow.",
+    "Microspikes or traction devices are highly recommended for high-elevation trails.",
+    "Trail Ridge Road in RMNP will likely be closed. Access the park from the Estes Park side.",
+    "Always check for reservations for RMNP, attractions, and popular restaurants.",
+    "Sunset is around 6:00 PM; plan activities accordingly."
+  ],
+  "itinerary": [
+    {
+      "day": "Wednesday, Oct 29",
+      "theme": "Arrival in Boulder",
+      "events": [
+        {
+          "time": "Evening",
+          "description": "Arrive in Boulder, check into your accommodation."
+        },
+        {
+          "time": "Dinner & Stroll",
+          "description": "Head to the Pearl Street Mall. It's a vibrant, pedestrian-only street with great restaurants, shops, and street performers.",
+          "location": {
+            "name": "Pearl Street Mall",
+            "lat": 40.0176,
+            "lon": -105.2800
+          },
+          "notes": "Dinner suggestions: Oak at Fourteenth (upscale), The Kitchen (farm-to-table), or Mountain Sun Pub & Brewery (classic Boulder vibe)."
+        }
+      ]
+    },
+    {
+      "day": "Thursday, Oct 30",
+      "theme": "Rocky Mountain National Park",
+      "travel": [
+        {
+          "from": "Boulder",
+          "to": "Estes Park",
+          "duration": "approx. 1 hour",
+          "route": "US-36"
+        }
+      ],
+      "events": [
+        {
+          "time": "7:30 AM",
+          "description": "Drive from Boulder to Estes Park. Grab coffee and pastries in Estes Park."
+        },
+        {
+          "time": "9:00 AM",
+          "description": "Enter Rocky Mountain National Park through the Beaver Meadows entrance.",
+          "location": {
+            "name": "Beaver Meadows Entrance",
+            "lat": 40.3661,
+            "lon": -105.5608
+          },
+          "notes": "Check the official NPS.gov/romo website for the status of the timed entry permit system. You may need to reserve your entry slot in advance."
+        },
+        {
+          "time": "9:30 AM - 1:30 PM",
+          "description": "Hike the Emerald Lake Trail (3.6-mile round-trip). This trail takes you past Bear Lake, Nymph Lake, and Dream Lake, culminating at Emerald Lake.",
+          "location": {
+            "name": "Emerald Lake Trail",
+            "lat": 40.3129,
+            "lon": -105.6458
+          },
+          "notes": "Expect snow and ice on the trail. Microspikes are essential."
+        },
+        {
+          "time": "1:30 PM",
+          "description": "Have a packed lunch near the trail or head back to Estes Park."
+        },
+        {
+          "time": "3:00 PM",
+          "description": "Explore other accessible areas of the park, such as Sprague Lake (easy loop with beautiful views) or Moraine Park to look for elk.",
+          "locations": [
+            {
+              "name": "Sprague Lake",
+              "lat": 40.3236,
+              "lon": -105.6175
+            },
+            {
+              "name": "Moraine Park",
+              "lat": 40.3589,
+              "lon": -105.6025
+            }
+          ]
+        },
+        {
+          "time": "Evening",
+          "description": "Drive back to Boulder. Dinner suggestion: Avery Brewing Co."
+        }
+      ]
+    },
+    {
+      "day": "Friday, Oct 31",
+      "theme": "Boulder's Nature and Denver's Culture (Happy Halloween!)",
+      "travel": [
+        {
+          "from": "Boulder",
+          "to": "Denver",
+          "duration": "approx. 45 minutes"
+        }
+      ],
+      "events": [
+        {
+          "time": "Morning",
+          "description": "Hike the Chautauqua Trail to the Flatiron Loop Trail (2.7 miles).",
+          "location": {
+            "name": "Chautauqua Park",
+            "lat": 39.9959,
+            "lon": -105.2835
+          },
+          "notes": "This moderate hike offers fantastic views of the city and the Flatiron rock formations."
+        },
+        {
+          "time": "Lunch",
+          "description": "Have lunch in Boulder."
+        },
+        {
+          "time": "Afternoon",
+          "description": "Drive to Denver and explore. Option 1: Denver Art Museum or Meow Wolf Convergence Station. Option 2: RiNo Art District or Larimer Square.",
+          "locations": [
+            {
+              "name": "Denver Art Museum",
+              "lat": 39.7392,
+              "lon": -104.9889
+            },
+            {
+              "name": "Meow Wolf Convergence Station",
+              "lat": 39.7296,
+              "lon": -104.9972
+            },
+            {
+              "name": "RiNo Art District",
+              "lat": 39.7676,
+              "lon": -104.9816
+            },
+            {
+              "name": "Larimer Square",
+              "lat": 39.7486,
+              "lon": -104.9995
+            }
+          ]
+        },
+        {
+          "time": "Evening",
+          "description": "Have dinner in Denver. Afterward, enjoy Halloween festivities or drive back to Boulder."
+        }
+      ]
+    },
+    {
+      "day": "Saturday, Nov 1",
+      "theme": "Red Rocks & The Journey South",
+      "travel": [
+        {
+          "from": "Boulder",
+          "to": "Garden of the Gods",
+          "duration": "approx. 1.5-hour drive"
+        }
+      ],
+      "events": [
+        {
+          "time": "Morning",
+          "description": "Drive to Garden of the Gods in Colorado Springs. Walk the Perkins Central Garden Trail (1.5 miles).",
+          "location": {
+            "name": "Garden of the Gods",
+            "lat": 38.8784,
+            "lon": -104.8704
+          },
+          "notes": "A National Natural Landmark with dramatic red rock formations."
+        },
+        {
+          "time": "Lunch",
+          "description": "Grab lunch in nearby Manitou Springs or Old Colorado City."
+        },
+        {
+          "time": "Afternoon",
+          "description": "Choose your adventure. Option A: Manitou Incline (strenuous, reservations required). Option B: Red Rock Canyon Open Space (moderate, less crowded).",
+          "locations": [
+            {
+              "name": "Manitou Incline",
+              "lat": 38.8576,
+              "lon": -104.9219
+            },
+            {
+              "name": "Red Rock Canyon Open Space",
+              "lat": 38.8539,
+              "lon": -104.8878
+            }
+          ]
+        },
+        {
+          "time": "4:30 PM",
+          "description": "Drive to Green Mountain Falls, a small, charming town."
+        },
+        {
+          "time": "6:00 PM",
+          "description": "Watch the sunset from the town's central lake and gazebo, or from a viewpoint along the road.",
+          "location": {
+            "name": "Green Mountain Falls",
+            "lat": 38.9328,
+            "lon": -105.0211
+          }
+        },
+        {
+          "time": "Dinner & Lodging",
+          "description": "Have dinner and stay the night in Green Mountain Falls or nearby Manitou Springs."
+        }
+      ]
+    },
+    {
+      "day": "Sunday, Nov 2",
+      "theme": "Unique Landscapes and Return North",
+      "travel": [
+        {
+          "from": "Green Mountain Falls",
+          "to": "Paint Mines Interpretive Park",
+          "duration": "approx. 1 hour"
+        }
+      ],
+      "events": [
+        {
+          "time": "Morning",
+          "description": "Drive to the Paint Mines Interpretive Park. The hiking is easy, but the landscape is unforgettable.",
+          "location": {
+            "name": "Paint Mines Interpretive Park",
+            "lat": 39.0211,
+            "lon": -104.2755
+          },
+          "notes": "A hidden gem with fantastical geological formations of colorful clay and rock spires (hoodoos)."
+        },
+        {
+          "time": "Lunch",
+          "description": "Find a spot in a town on your way back north."
+        },
+        {
+          "time": "Afternoon",
+          "description": "On your drive back towards Boulder, stop at Castlewood Canyon State Park. The Canyon View Nature Trail is a great option for a final, relaxing hike.",
+          "location": {
+            "name": "Castlewood Canyon State Park",
+            "lat": 39.3511,
+            "lon": -104.7619
+          }
+        },
+        {
+          "time": "Evening",
+          "description": "Arrive back in Boulder for your last night. Enjoy a final Colorado dinner."
+        }
+      ]
+    },
+    {
+      "day": "Monday, Nov 3",
+      "theme": "Departure",
+      "travel": [
+        {
+          "from": "Boulder",
+          "to": "Denver International Airport (DIA)",
+          "duration": "at least 1 hour"
+        }
+      ],
+      "events": [
+        {
+          "time": "Morning",
+          "description": "Enjoy a final breakfast in Boulder. Suggestion: The Buff Restaurant."
+        },
+        {
+          "time": "Depart",
+          "description": "Drive to Denver International Airport (DIA) for your flight home."
+        }
+      ]
+    }
+  ]
+}
