@@ -24,7 +24,8 @@
             "lat": 40.0176,
             "lon": -105.2800
           },
-          "notes": "Dinner suggestions: Oak at Fourteenth (upscale), The Kitchen (farm-to-table), or Mountain Sun Pub & Brewery (classic Boulder vibe)."
+          "notes": "Dinner suggestions: Oak at Fourteenth (upscale), The Kitchen (farm-to-table), or Mountain Sun Pub & Brewery (classic Boulder vibe).",
+          "image": "images/pearl_street_mall.png"
         }
       ]
     },
@@ -62,7 +63,8 @@
             "lat": 40.3129,
             "lon": -105.6458
           },
-          "notes": "Expect snow and ice on the trail. Microspikes are essential."
+          "notes": "Expect snow and ice on the trail. Microspikes are essential.",
+          "image": "images/emerald_lake_trail.png"
         },
         {
           "time": "1:30 PM",
@@ -75,12 +77,14 @@
             {
               "name": "Sprague Lake",
               "lat": 40.3236,
-              "lon": -105.6175
+              "lon": -105.6175,
+              "image": "images/sprague_lake.png"
             },
             {
               "name": "Moraine Park",
               "lat": 40.3589,
-              "lon": -105.6025
+              "lon": -105.6025,
+              "image": "images/moraine_park.png"
             }
           ]
         },
@@ -109,7 +113,8 @@
             "lat": 39.9959,
             "lon": -105.2835
           },
-          "notes": "This moderate hike offers fantastic views of the city and the Flatiron rock formations."
+          "notes": "This moderate hike offers fantastic views of the city and the Flatiron rock formations.",
+          "image": "images/chautauqua_park.png"
         },
         {
           "time": "Lunch",
@@ -122,22 +127,26 @@
             {
               "name": "Denver Art Museum",
               "lat": 39.7392,
-              "lon": -104.9889
+              "lon": -104.9889,
+              "image": "images/denver_art_museum.png"
             },
             {
               "name": "Meow Wolf Convergence Station",
               "lat": 39.7296,
-              "lon": -104.9972
+              "lon": -104.9972,
+              "image": "images/meow_wolf.png"
             },
             {
               "name": "RiNo Art District",
               "lat": 39.7676,
-              "lon": -104.9816
+              "lon": -104.9816,
+              "image": "images/rino_art_district.png"
             },
             {
               "name": "Larimer Square",
               "lat": 39.7486,
-              "lon": -104.9995
+              "lon": -104.9995,
+              "image": "images/larimer_square.png"
             }
           ]
         },
@@ -166,7 +175,8 @@
             "lat": 38.8784,
             "lon": -104.8704
           },
-          "notes": "A National Natural Landmark with dramatic red rock formations."
+          "notes": "A National Natural Landmark with dramatic red rock formations.",
+          "image": "images/garden_of_the_gods.png"
         },
         {
           "time": "Lunch",
@@ -179,12 +189,14 @@
             {
               "name": "Manitou Incline",
               "lat": 38.8576,
-              "lon": -104.9219
+              "lon": -104.9219,
+              "image": "images/manitou_incline.png"
             },
             {
               "name": "Red Rock Canyon Open Space",
               "lat": 38.8539,
-              "lon": -104.8878
+              "lon": -104.8878,
+              "image": "images/red_rock_canyon.png"
             }
           ]
         },
@@ -199,7 +211,8 @@
             "name": "Green Mountain Falls",
             "lat": 38.9328,
             "lon": -105.0211
-          }
+          },
+          "image": "images/green_mountain_falls.png"
         },
         {
           "time": "Dinner & Lodging",
@@ -226,7 +239,8 @@
             "lat": 39.0211,
             "lon": -104.2755
           },
-          "notes": "A hidden gem with fantastical geological formations of colorful clay and rock spires (hoodoos)."
+          "notes": "A hidden gem with fantastical geological formations of colorful clay and rock spires (hoodoos).",
+          "image": "images/paint_mines_park.png"
         },
         {
           "time": "Lunch",
@@ -239,7 +253,8 @@
             "name": "Castlewood Canyon State Park",
             "lat": 39.3511,
             "lon": -104.7619
-          }
+          },
+          "image": "images/castlewood_canyon.png"
         },
         {
           "time": "Evening",

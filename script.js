@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
+    // Modal functionality
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+    const captionText = document.getElementById("caption");
+    const span = document.getElementsByClassName("close")[0];
+
+    span.onclick = () => {
+        modal.style.display = "none";
+    }
+
     // Fetch itinerary data, add markers, and build itinerary
     fetch('itinerary.json')
         .then(response => response.json())
@@ -42,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 dayHeader.innerHTML = `${day.day}: <span>${day.theme}</span>`;
                 dayDiv.appendChild(dayHeader);
 
-                // Add travel info and draw routes
                 if (day.travel) {
                     day.travel.forEach(trip => {
                         const travelInfo = document.createElement('p');
@@ -80,6 +89,19 @@ document.addEventListener('DOMContentLoaded', () => {
                         eventNotes.className = 'notes';
                         eventNotes.innerHTML = `<em>Note:</em> ${event.notes}`;
                         eventDiv.appendChild(eventNotes);
+                    }
+
+                    if (event.image) {
+                        const img = document.createElement('img');
+                        img.src = event.image;
+                        img.alt = event.description;
+                        img.className = 'event-image';
+                        img.onclick = () => {
+                            modal.style.display = "block";
+                            modalImg.src = img.src;
+                            captionText.innerHTML = img.alt;
+                        }
+                        eventDiv.appendChild(img);
                     }
 
                     dayDiv.appendChild(eventDiv);
