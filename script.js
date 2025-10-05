@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById("imageModal");
     const modalImg = document.getElementById("modalImage");
     const captionText = document.getElementById("caption");
+    const modalDate = document.getElementById("modal-date");
+    const modalTime = document.getElementById("modal-time");
     const span = document.getElementsByClassName("close")[0];
 
     span.onclick = () => {
@@ -100,23 +102,43 @@ document.addEventListener('DOMContentLoaded', () => {
                             modal.style.display = "block";
                             modalImg.src = img.src;
                             captionText.innerHTML = img.alt;
+                            modalDate.textContent = `Date: ${day.day}`;
+                            modalTime.textContent = `Time: ${event.time}`;
                         }
                         eventDiv.appendChild(img);
                     }
 
                     dayDiv.appendChild(eventDiv);
 
+                    // Function to open modal for a marker
+                    const openModalForMarker = (imageSrc, caption, date, time) => {
+                        modal.style.display = "block";
+                        modalImg.src = imageSrc;
+                        captionText.innerHTML = caption;
+                        modalDate.textContent = `Date: ${date}`;
+                        modalTime.textContent = `Time: ${time}`;
+                    };
+
                     // Add markers to the map
                     if (event.location) {
                         const { name, lat, lon } = event.location;
-                        L.marker([lat, lon]).addTo(map)
-                            .bindPopup(`<b>${name}</b><br>${event.description}`);
+                        const marker = L.marker([lat, lon]).addTo(map);
+                        if (event.image) {
+                            marker.on('click', () => openModalForMarker(event.image, event.description, day.day, event.time));
+                        } else {
+                            marker.bindPopup(`<b>${name}</b><br>${event.description}`);
+                        }
                     }
+
                     if (event.locations) {
                         event.locations.forEach(location => {
-                            const { name, lat, lon } = location;
-                            L.marker([lat, lon]).addTo(map)
-                                .bindPopup(`<b>${name}</b>`);
+                            const { name, lat, lon, image } = location;
+                            const marker = L.marker([lat, lon]).addTo(map);
+                            if (image) {
+                                marker.on('click', () => openModalForMarker(image, name, day.day, event.time));
+                            } else {
+                                marker.bindPopup(`<b>${name}</b>`);
+                            }
                         });
                     }
                 });

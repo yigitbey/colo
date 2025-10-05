@@ -121,6 +121,12 @@ footer {
     height: 150px;
 }
 
+.modal-info {
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
 .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
